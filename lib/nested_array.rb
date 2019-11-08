@@ -26,8 +26,21 @@ def array_literal_matrix
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
+<<<<<<< HEAD
   ary = [["Don Gately","Joelle van Dyne","Pat M.","Kate Gompert","Bruce Green"].sort!,
          ["Hal Incandenza","Lyle","Gerhard Schtitt","Mario Incandenza","Michael Pemulis"].sort!]
+=======
+  ary = [[
+    "Don Gately",
+    "Joelle van Dyne",
+    "Pat M.",
+    "Kate Gompert",
+    "Bruce Green"
+  ],["Hal Incandenza","Lyle","Gerhard Schtitt","Mario Incandenza","Michael Pemulis"]]
+  ary.sort!
+  ary
+
+>>>>>>> 50b06e4c449044ea0f07ace8bb4392820a3acd5d
 end
 
 def matrix_lookup(matrix, row, column)
